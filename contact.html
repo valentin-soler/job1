@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <meta name="description" content="BloomPetals est une entreprise de vente de fleurs en ligne.">
+    <meta name="keywords" content="fleurs, vente, en ligne, BloomPetals">
+    <meta name="author" content="BloomPetals">
+    <meta name="robots" content="index, follow">
+    <title>BloomPetals</title>
+</head>
+<body>
+    <header>
+        <nav class="pc">
+            <ul>
+                <li><a href="index.html" class="nav-link"><h1>BloomPetals</h1></a></li>
+                <li><a href="entreprise.html" class="nav-link">Entreprise</a></li>
+                <li><a href="realisation.html" class="nav-link">Réalisation</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <nav class="mobile">
+            <label for="buttonmenu" class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <input type="checkbox" id="buttonmenu" class="buttonmenu">
+            <ul class="mobilenav">
+                <li><a href="index.html" class="nav-link"><h1>BloomPetals</h1></a></li>
+                <li><a href="entreprise.html" class="nav-link">Entreprise</a></li>
+                <li><a href="realisation.html" class="nav-link">Réalisation</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="title">
+                <h1>Nous Contacter</h1>
+            </div>
+            <div class="description">
+                <p>Pour nous contacter, vous pouvez utiliser le formulaire ci-dessous<br>Pour J-P : Blonde, yeux vert, petite et menue</p>
+            </div>
+            <div>
+                <hr>
+            </div>
+            <div class="infoperso">
+                <div class="selectvalue">
+                    <label for="sexe">Sexe ?</label>
+                    <select name="sexe" id="sexe">
+                        <option value="homme">Homme</option>
+                        <option value="femme">Femme</option>
+                        <option value="helico">Hélicopter de combat Apache</option>
+                        <option value="amant">Futur Amant de J-P</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </div>
+                <div class="selectvalue">
+                    <label for="nom">Nom</label>
+                    <input type="text" name="nom" id="nom">
+                </div>
+                <div class="selectvalue">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" name="prenom" id="prenom">
+                </div>
+            </div>
+            <div class="infoperso">
+                <div class="selectvalue">
+                    <label for="n_rue">Numéro de rue</label>
+                    <input type="number" name="n_rue" id="n_rue">
+                </div>
+                <div class="selectvalue">
+                    <label for="rue">Rue</label>
+                    <input type="text" name="rue" id="rue">
+                </div>
+                <div class="selectvalue">
+                    <label for="cdpostal">Code Postal</label>
+                    <input type="number" name="cdpostal" id="cdpostal">
+                </div>
+                <div class="selectvalue">
+                    <label for="ville">Ville</label>
+                    <input type="text" name="ville" id="ville">
+                </div> 
+            </div>
+            <div class="infoperso">
+            <div class="selectvalue">
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Votre message"></textarea>
+                <div class="infoperso">
+                    <input type="checkbox" value="oui" name="polconfi" id="polconfi" required>
+                    <label for="polconfi">Acceptez-vous notre politique de confidentialité ?</label>
+            </div>
+                <input type="submit" value="Envoyer">
+            </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer"></div>
+    </footer>
+</body>
+</html>
